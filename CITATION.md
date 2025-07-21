@@ -9,8 +9,9 @@ To cite the library itself, please use:
                   Jacobsen, Douglas and
                   Deakin, Tom and
                   Zamora, Yuliana and
-                  Lee, Kin Long Kelvin},
-  title        = {{Performance, Portability and Productivity Analysis 
+                  Lee, Kin Long Kelvin and
+                  Wright, Steven A.},
+  title        = {{Performance, Portability and Productivity Analysis
                    Library}},
   month        = mar,
   year         = 2023,
