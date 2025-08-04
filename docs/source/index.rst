@@ -30,8 +30,8 @@ Performance, Portability, and Productivity Analysis Library
    :hidden:
    :caption: Contributing
 
-   How to Contribute <https://github.com/intel/p3-analysis-library/blob/main/CONTRIBUTING.md>
-   GitHub <https://github.com/intel/p3-analysis-library>
+   How to Contribute <https://github.com/P3HPC/p3-analysis-library/blob/main/CONTRIBUTING.md>
+   GitHub <https://github.com/P3HPC/p3-analysis-library>
    notices-and-disclaimers
 
 The Performance, Portability, and Productivity Analysis Library (P3 Analysis
@@ -58,7 +58,7 @@ Installation
 The latest release of the P3 Analysis Library is version 0.1.0-alpha. To
 download and install this release, run the following::
 
-    $ git clone --branch v0.1.0-alpha https://github.com/intel/p3-analysis-library.git
+    $ git clone --branch v0.1.0-alpha https://github.com/P3HPC/p3-analysis-library.git
     $ cd p3-analysis-library
     $ pip install .
 

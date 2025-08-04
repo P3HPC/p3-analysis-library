@@ -15,4 +15,4 @@ License
 
 The Performance, Portability and Productivity Analysis Library (P3 Analysis
 Library) is licensed under the MIT License, and made available at
-http://github.com/intel/p3-analysis-library/.
+http://github.com/P3HPC/p3-analysis-library/.

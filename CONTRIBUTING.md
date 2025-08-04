@@ -6,8 +6,8 @@ welcome community contributions. You can:
 - Submit your changes directly with a [pull request][1].
 - File a bug or open a feature request with an [issue][2].
 
-[1]: https://github.com/intel/p3-analysis-library/pulls
-[2]: https://github.com/intel/p3-analysis-library/issues
+[1]: https://github.com/P3HPC/p3-analysis-library/pulls
+[2]: https://github.com/P3HPC/p3-analysis-library/issues
 
 # Pull Requests
 
@@ -48,7 +48,7 @@ For commits:
 - Limit the other lines of Git commit messages to 72 characters.
 - Please consider following the guidelines outlined [here][7].
 
-[7]: https://cbea.ms/git-commit/ 
+[7]: https://cbea.ms/git-commit/
 
 # Testing
 

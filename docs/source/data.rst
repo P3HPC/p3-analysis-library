@@ -75,4 +75,4 @@ The JSON string format follows the schema `here`_, and should be considered
 experimental.
 
 .. _here:
-   https://raw.githubusercontent.com/intel/p3-analysis-library/master/p3/data/coverage.schema
+   https://raw.githubusercontent.com/P3HPC/p3-analysis-library/master/p3/data/coverage.schema
