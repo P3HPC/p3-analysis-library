@@ -61,7 +61,7 @@ def snapshot(df, cov=None, directory=None):
     - A navigation chart (see :py:func:`p3analysis.plot.navchart`)
     - A table breaking down the lines of code shared between applications
 
-    .. _Code Base Investigator: https://github.com/intel/code-base-investigator
+    .. _Code Base Investigator: https://github.com/P3HPC/code-base-investigator
 
     Parameters
     ----------

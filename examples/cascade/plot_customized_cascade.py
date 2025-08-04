@@ -30,7 +30,7 @@ use :py:meth:`matplotlib.axes.Axes.set_ylim` to update the y-axis.
    If you have any trouble customizing a plot, or the
    :py:class:`~p3analysis.plot.backend.CascadePlot` object does not provide access to
    the internals you are looking for, then please `open an issue
-   <https://github.com/intel/p3-analysis-library/issues/new/choose>`_.
+   <https://github.com/P3HPC/p3-analysis-library/issues/new/choose>`_.
 """
 
 # Initialize synthetic performance efficiency data

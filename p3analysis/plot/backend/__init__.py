@@ -7,7 +7,7 @@ Contains backend-specific interfaces for customizing plots.
    If you have any trouble customizing a plot, or the objects in this module
    do not provide access to the internals you are looking for, then please
    `open an issue
-   <https://github.com/intel/p3-analysis-library/issues/new/choose>`_.
+   <https://github.com/P3HPC/p3-analysis-library/issues/new/choose>`_.
 """
 
 import itertools

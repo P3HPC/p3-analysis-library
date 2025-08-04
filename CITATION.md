@@ -10,7 +10,7 @@ To cite the library itself, please use:
                   Deakin, Tom and
                   Zamora, Yuliana and
                   Lee, Kin Long Kelvin},
-  title        = {{Performance, Portability and Productivity Analysis 
+  title        = {{Performance, Portability and Productivity Analysis
                    Library}},
   month        = mar,
   year         = 2023,
@@ -22,7 +22,7 @@ To cite the library itself, please use:
 
 Additional DOIs are generated for each [release][1].
 
-[1]: https://github.com/intel/p3-analysis-library/releases
+[1]: https://github.com/P3HPC/p3-analysis-library/releases
 
 ## Citing Specific Functionality
 

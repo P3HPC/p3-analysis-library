@@ -31,7 +31,7 @@ use :py:meth:`matplotlib.axes.Axes.set_xticks` and
    If you have any trouble customizing a navigation chart, or the
    :py:class:`~p3analysis.plot.backend.NavChart` object does not provide access to the
    internals you are looking for, then please `open an issue
-   <https://github.com/intel/p3-analysis-library/issues/new/choose>`_.
+   <https://github.com/P3HPC/p3-analysis-library/issues/new/choose>`_.
 """
 
 # Initialize synthetic data
