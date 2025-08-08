@@ -42,7 +42,7 @@ def tight_matplotlib_scraper(block, block_vars, gallery_conf, **kwargs):
     import sphinx_gallery
     from sphinx_gallery.scrapers import matplotlib_scraper
     kwargs["bbox_inches"] = "tight"
-    return sphinx_gallery.scrapers.matplotlib_scraper(block, block_vars, gallery_conf, **kwargs)
+    return matplotlib_scraper(block, block_vars, gallery_conf, **kwargs)
 
 sphinx_gallery_conf = {
      'examples_dirs': ['../../examples','../../case-studies'],
