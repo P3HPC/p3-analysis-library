@@ -46,7 +46,7 @@ use :py:meth:`matplotlib.axes.Axes.set_ylim` to update the y-axis.
    If you have any trouble customizing a plot, or the
    :py:class:`~p3analysis.plot.backend.CascadePlot` object does not provide access to
    the internals you are looking for, then please `open an issue
-   <https://github.com/intel/p3-analysis-library/issues/new/choose>`_.
+   <https://github.com/P3HPC/p3-analysis-library/issues/new/choose>`_.
 
 .. GENERATED FROM PYTHON SOURCE LINES 35-55
 
@@ -87,7 +87,7 @@ use :py:meth:`matplotlib.axes.Axes.set_ylim` to update the y-axis.
 
 .. rst-class:: sphx-glr-timing
 
-   **Total running time of the script:** (0 minutes 0.378 seconds)
+   **Total running time of the script:** (0 minutes 0.363 seconds)
 
 
 .. _sphx_glr_download_examples_cascade_plot_customized_cascade.py:

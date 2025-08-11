@@ -47,7 +47,7 @@ use :py:meth:`matplotlib.axes.Axes.set_xticks` and
    If you have any trouble customizing a navigation chart, or the
    :py:class:`~p3analysis.plot.backend.NavChart` object does not provide access to the
    internals you are looking for, then please `open an issue
-   <https://github.com/intel/p3-analysis-library/issues/new/choose>`_.
+   <https://github.com/P3HPC/p3-analysis-library/issues/new/choose>`_.
 
 .. GENERATED FROM PYTHON SOURCE LINES 36-62
 
@@ -94,7 +94,7 @@ use :py:meth:`matplotlib.axes.Axes.set_xticks` and
 
 .. rst-class:: sphx-glr-timing
 
-   **Total running time of the script:** (0 minutes 0.204 seconds)
+   **Total running time of the script:** (0 minutes 0.168 seconds)
 
 
 .. _sphx_glr_download_examples_navchart_plot_customized_navchart.py:

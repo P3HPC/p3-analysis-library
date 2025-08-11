@@ -6,7 +6,7 @@
 
 Computation times
 =================
-**00:03.295** total execution time for 9 files **from all galleries**:
+**00:02.425** total execution time for 9 files **from all galleries**:
 
 .. container::
 
@@ -33,29 +33,29 @@ Computation times
      - Time
      - Mem (MB)
    * - :ref:`sphx_glr_examples_cascade_plot_simple_cascade.py` (``../../examples/cascade/plot_simple_cascade.py``)
-     - 00:00.866
+     - 00:00.512
      - 0.0
    * - :ref:`sphx_glr_case-studies_babelstream_plot_babelstream_navchart.py` (``../../case-studies/babelstream/plot_babelstream_navchart.py``)
-     - 00:00.813
+     - 00:00.408
      - 0.0
    * - :ref:`sphx_glr_case-studies_babelstream_plot_babelstream_cascade.py` (``../../case-studies/babelstream/plot_babelstream_cascade.py``)
-     - 00:00.419
+     - 00:00.398
      - 0.0
    * - :ref:`sphx_glr_examples_cascade_plot_customized_cascade.py` (``../../examples/cascade/plot_customized_cascade.py``)
-     - 00:00.378
+     - 00:00.363
      - 0.0
    * - :ref:`sphx_glr_examples_metrics_multiple_components.py` (``../../examples/metrics/multiple_components.py``)
-     - 00:00.244
+     - 00:00.238
      - 0.0
    * - :ref:`sphx_glr_examples_metrics_application_efficiency.py` (``../../examples/metrics/application_efficiency.py``)
-     - 00:00.210
+     - 00:00.186
      - 0.0
    * - :ref:`sphx_glr_examples_navchart_plot_customized_navchart.py` (``../../examples/navchart/plot_customized_navchart.py``)
-     - 00:00.204
+     - 00:00.168
      - 0.0
    * - :ref:`sphx_glr_examples_navchart_plot_simple_navchart.py` (``../../examples/navchart/plot_simple_navchart.py``)
-     - 00:00.140
+     - 00:00.135
      - 0.0
    * - :ref:`sphx_glr_examples_metrics_projection.py` (``../../examples/metrics/projection.py``)
-     - 00:00.021
+     - 00:00.017
      - 0.0

@@ -6,7 +6,7 @@
 
 Computation times
 =================
-**00:00.475** total execution time for 3 files **from examples/metrics**:
+**00:00.441** total execution time for 3 files **from examples/metrics**:
 
 .. container::
 
@@ -33,11 +33,11 @@ Computation times
      - Time
      - Mem (MB)
    * - :ref:`sphx_glr_examples_metrics_multiple_components.py` (``multiple_components.py``)
-     - 00:00.244
+     - 00:00.238
      - 0.0
    * - :ref:`sphx_glr_examples_metrics_application_efficiency.py` (``application_efficiency.py``)
-     - 00:00.210
+     - 00:00.186
      - 0.0
    * - :ref:`sphx_glr_examples_metrics_projection.py` (``projection.py``)
-     - 00:00.021
+     - 00:00.017
      - 0.0

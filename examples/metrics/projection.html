@@ -253,8 +253,8 @@
 </ul>
 <p class="caption" role="heading"><span class="caption-text">Contributing</span></p>
 <ul>
-<li class="toctree-l1"><a class="reference external" href="https://github.com/intel/p3-analysis-library/blob/main/CONTRIBUTING.md">How to Contribute</a></li>
-<li class="toctree-l1"><a class="reference external" href="https://github.com/intel/p3-analysis-library">GitHub</a></li>
+<li class="toctree-l1"><a class="reference external" href="https://github.com/P3HPC/p3-analysis-library/blob/main/CONTRIBUTING.md">How to Contribute</a></li>
+<li class="toctree-l1"><a class="reference external" href="https://github.com/P3HPC/p3-analysis-library">GitHub</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../../notices-and-disclaimers.html">Notices and Disclaimers</a></li>
 </ul>
 
@@ -424,7 +424,7 @@ fully and unambiguously describe a function’s behavior, its implementation,
 or the state of a machine when its performance was recorded. But we’ll come
 back to that later.</p>
 </div>
-<p>After loading our data into a <a class="reference external" href="https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.html#pandas.DataFrame" title="(in pandas v2.2.3)"><code class="xref py py-class docutils literal notranslate"><span class="pre">pandas.DataFrame</span></code></a>
+<p>After loading our data into a <a class="reference external" href="https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.html#pandas.DataFrame" title="(in pandas v2.3.1)"><code class="xref py py-class docutils literal notranslate"><span class="pre">pandas.DataFrame</span></code></a>
 (<code class="docutils literal notranslate"><span class="pre">df</span></code>), we can use the
 <a class="reference internal" href="../../p3analysis.data.html#p3analysis.data.projection" title="p3analysis.data.projection"><code class="xref py py-func docutils literal notranslate"><span class="pre">p3analysis.data.projection()</span></code></a> function to perform this
 projection, renaming the columns as described above.</p>
@@ -658,7 +658,7 @@ before:</p>
 <p>This time, the original “size” column has been removed, but the “precision”
 column remains.</p>
 <p>Clearly, the values provided to the projection function change the structure
-of the resulting <a class="reference external" href="https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.html#pandas.DataFrame" title="(in pandas v2.2.3)"><code class="xref py py-class docutils literal notranslate"><span class="pre">pandas.DataFrame</span></code></a>. But why does that matter?
+of the resulting <a class="reference external" href="https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.html#pandas.DataFrame" title="(in pandas v2.3.1)"><code class="xref py py-class docutils literal notranslate"><span class="pre">pandas.DataFrame</span></code></a>. But why does that matter?
 Well, let’s take a look at what happens if we compute the maximum “fom” for
 each (problem, application, platform) tuple in our projected datasets:</p>
 <div class="highlight-Python notranslate"><div class="highlight"><pre><span></span><a href="https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.Series.html#pandas.Series" title="pandas.core.series.Series" class="sphx-glr-backref-module-pandas-core-series sphx-glr-backref-type-py-class sphx-glr-backref-instance"><span class="n">max1</span></a> <span class="o">=</span> <a href="https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.groupby.html#pandas.DataFrame.groupby" title="pandas.DataFrame.groupby" class="sphx-glr-backref-module-pandas sphx-glr-backref-type-py-method"><span class="n">proj1</span><span class="o">.</span><span class="n">groupby</span></a><span class="p">([</span><span class="s2">&quot;problem&quot;</span><span class="p">,</span> <span class="s2">&quot;application&quot;</span><span class="p">,</span> <span class="s2">&quot;platform&quot;</span><span class="p">])[</span><span class="s2">&quot;fom&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">max</span><span class="p">()</span>
@@ -717,7 +717,7 @@ is correct before digging too deep into (or presenting!) any results.</p>
 <p>After raw performance data has been projected onto definitions
 of “problem”, “application”, and “platform”, it can be passed to
 any of the P3 Analysis Library functions that expect a
-<a class="reference external" href="https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.html#pandas.DataFrame" title="(in pandas v2.2.3)"><code class="xref py py-class docutils literal notranslate"><span class="pre">pandas.DataFrame</span></code></a>.</p>
+<a class="reference external" href="https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.html#pandas.DataFrame" title="(in pandas v2.3.1)"><code class="xref py py-class docutils literal notranslate"><span class="pre">pandas.DataFrame</span></code></a>.</p>
 <p>The examples below show how to use projected data to compute
 and visualize derived metrics like “application efficiency”,
 “performance portability”, and “code divergence”.</p>
@@ -732,7 +732,7 @@ and visualize derived metrics like “application efficiency”,
 </div><div class="sphx-glr-thumbcontainer" tooltip="A simple navigation chart."><img alt="" src="../../_images/sphx_glr_plot_simple_navchart_thumb.png" />
 <p><a class="reference internal" href="../navchart/plot_simple_navchart.html#sphx-glr-examples-navchart-plot-simple-navchart-py"><span class="std std-ref">Simple Navigation Chart</span></a></p>
   <div class="sphx-glr-thumbnail-title">Simple Navigation Chart</div>
-</div></div><p class="sphx-glr-timing"><strong>Total running time of the script:</strong> (0 minutes 0.021 seconds)</p>
+</div></div><p class="sphx-glr-timing"><strong>Total running time of the script:</strong> (0 minutes 0.017 seconds)</p>
 <div class="sphx-glr-footer sphx-glr-footer-example docutils container" id="sphx-glr-download-examples-metrics-projection-py">
 <div class="sphx-glr-download sphx-glr-download-jupyter docutils container">
 <p><a class="reference download internal" download="" href="../../_downloads/445b85ee23078a89243e2303f371ee91/projection.ipynb"><code class="xref download docutils literal notranslate"><span class="pre">Download</span> <span class="pre">Jupyter</span> <span class="pre">notebook:</span> <span class="pre">projection.ipynb</span></code></a></p>

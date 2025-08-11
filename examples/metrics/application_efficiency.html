@@ -253,8 +253,8 @@
 </ul>
 <p class="caption" role="heading"><span class="caption-text">Contributing</span></p>
 <ul>
-<li class="toctree-l1"><a class="reference external" href="https://github.com/intel/p3-analysis-library/blob/main/CONTRIBUTING.md">How to Contribute</a></li>
-<li class="toctree-l1"><a class="reference external" href="https://github.com/intel/p3-analysis-library">GitHub</a></li>
+<li class="toctree-l1"><a class="reference external" href="https://github.com/P3HPC/p3-analysis-library/blob/main/CONTRIBUTING.md">How to Contribute</a></li>
+<li class="toctree-l1"><a class="reference external" href="https://github.com/P3HPC/p3-analysis-library">GitHub</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../../notices-and-disclaimers.html">Notices and Disclaimers</a></li>
 </ul>
 
@@ -390,7 +390,7 @@ to explicitly represent cases where applications did not compile on
 specific platforms, did not run to completion, or ran but produced
 numerical results that failed some sort of verification.</p>
 </div>
-<p>After loading this data into a <a class="reference external" href="https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.html#pandas.DataFrame" title="(in pandas v2.2.3)"><code class="xref py py-class docutils literal notranslate"><span class="pre">pandas.DataFrame</span></code></a> (<cite>df</cite>), we can
+<p>After loading this data into a <a class="reference external" href="https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.html#pandas.DataFrame" title="(in pandas v2.3.1)"><code class="xref py py-class docutils literal notranslate"><span class="pre">pandas.DataFrame</span></code></a> (<cite>df</cite>), we can
 use the <a class="reference internal" href="../../p3analysis.metrics.html#p3analysis.metrics.application_efficiency" title="p3analysis.metrics.application_efficiency"><code class="xref py py-func docutils literal notranslate"><span class="pre">p3analysis.metrics.application_efficiency()</span></code></a> function to calculate a
 table of application efficiencies.</p>
 <div class="highlight-Python notranslate"><div class="highlight"><pre><span></span><a href="https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.html#pandas.DataFrame" title="pandas.core.frame.DataFrame" class="sphx-glr-backref-module-pandas-core-frame sphx-glr-backref-type-py-class sphx-glr-backref-instance"><span class="n">effs</span></a> <span class="o">=</span> <span class="n">p3analysis</span><span class="o">.</span><span class="n">metrics</span><span class="o">.</span><span class="n">application_efficiency</span><span class="p">(</span><a href="https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.html#pandas.DataFrame" title="pandas.core.frame.DataFrame" class="sphx-glr-backref-module-pandas-core-frame sphx-glr-backref-type-py-class sphx-glr-backref-instance"><span class="n">df</span></a><span class="p">)</span>
@@ -508,7 +508,7 @@ carefully.</p>
 <h2>Plotting Application Efficiency<a class="headerlink" href="#plotting-application-efficiency" title="Link to this heading">¶</a></h2>
 <p>The P3 Analysis Library does not contain any dedicated functionality for
 plotting application efficiency values. However, it is straightforward to use
-<a class="reference external" href="https://matplotlib.org/stable/index.html#module-matplotlib" title="(in Matplotlib v3.9.2)"><code class="xref py py-mod docutils literal notranslate"><span class="pre">matplotlib</span></code></a> and/or the plotting functionality of <a class="reference external" href="https://pandas.pydata.org/pandas-docs/stable/index.html#module-pandas" title="(in pandas v2.2.3)"><code class="xref py py-mod docutils literal notranslate"><span class="pre">pandas</span></code></a> to
+<a class="reference external" href="https://matplotlib.org/stable/index.html#module-matplotlib" title="(in Matplotlib v3.10.5)"><code class="xref py py-mod docutils literal notranslate"><span class="pre">matplotlib</span></code></a> and/or the plotting functionality of <a class="reference external" href="https://pandas.pydata.org/pandas-docs/stable/index.html#module-pandas" title="(in pandas v2.3.1)"><code class="xref py py-mod docutils literal notranslate"><span class="pre">pandas</span></code></a> to
 produce useful visualizations.</p>
 <p>For example, plotting a bar chart of application efficiences for one
 application can help us to summarize that application’s performance more
@@ -649,7 +649,7 @@ platform.</p>
 </div><div class="sphx-glr-thumbcontainer" tooltip="A simple navigation chart."><img alt="" src="../../_images/sphx_glr_plot_simple_navchart_thumb.png" />
 <p><a class="reference internal" href="../navchart/plot_simple_navchart.html#sphx-glr-examples-navchart-plot-simple-navchart-py"><span class="std std-ref">Simple Navigation Chart</span></a></p>
   <div class="sphx-glr-thumbnail-title">Simple Navigation Chart</div>
-</div></div><p class="sphx-glr-timing"><strong>Total running time of the script:</strong> (0 minutes 0.210 seconds)</p>
+</div></div><p class="sphx-glr-timing"><strong>Total running time of the script:</strong> (0 minutes 0.186 seconds)</p>
 <div class="sphx-glr-footer sphx-glr-footer-example docutils container" id="sphx-glr-download-examples-metrics-application-efficiency-py">
 <div class="sphx-glr-download sphx-glr-download-jupyter docutils container">
 <p><a class="reference download internal" download="" href="../../_downloads/df0ea69ce19157e4de3a35a149e1a089/application_efficiency.ipynb"><code class="xref download docutils literal notranslate"><span class="pre">Download</span> <span class="pre">Jupyter</span> <span class="pre">notebook:</span> <span class="pre">application_efficiency.ipynb</span></code></a></p>

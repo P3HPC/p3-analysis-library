@@ -253,8 +253,8 @@
 </ul>
 <p class="caption" role="heading"><span class="caption-text">Contributing</span></p>
 <ul>
-<li class="toctree-l1"><a class="reference external" href="https://github.com/intel/p3-analysis-library/blob/main/CONTRIBUTING.md">How to Contribute</a></li>
-<li class="toctree-l1"><a class="reference external" href="https://github.com/intel/p3-analysis-library">GitHub</a></li>
+<li class="toctree-l1"><a class="reference external" href="https://github.com/P3HPC/p3-analysis-library/blob/main/CONTRIBUTING.md">How to Contribute</a></li>
+<li class="toctree-l1"><a class="reference external" href="https://github.com/P3HPC/p3-analysis-library">GitHub</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../../notices-and-disclaimers.html">Notices and Disclaimers</a></li>
 </ul>
 
@@ -312,22 +312,22 @@ points and/or provide some additional context.</p>
 <p>Instead of trying to expose all possible customization options as arguments to
 <a class="reference internal" href="../../p3analysis.plot.html#p3analysis.plot.navchart" title="p3analysis.plot.navchart"><code class="xref py py-func docutils literal notranslate"><span class="pre">p3analysis.plot.navchart()</span></code></a>, the function returns a
 <code class="xref py py-class docutils literal notranslate"><span class="pre">p3analysis.plot.NavChart</span></code> object that provides direct access to library
-internals. When using the <a class="reference external" href="https://matplotlib.org/stable/index.html#module-matplotlib" title="(in Matplotlib v3.9.2)"><code class="xref py py-mod docutils literal notranslate"><span class="pre">matplotlib</span></code></a> backend it is possible to
-access the <a class="reference external" href="https://matplotlib.org/stable/api/_as_gen/matplotlib.axes.Axes.html#matplotlib.axes.Axes" title="(in Matplotlib v3.9.2)"><code class="xref py py-class docutils literal notranslate"><span class="pre">matplotlib.axes.Axes</span></code></a> that were used and subsequently
-call any number of <a class="reference external" href="https://matplotlib.org/stable/index.html#module-matplotlib" title="(in Matplotlib v3.9.2)"><code class="xref py py-mod docutils literal notranslate"><span class="pre">matplotlib</span></code></a> functions. In our example, we can
-use <a class="reference external" href="https://matplotlib.org/stable/api/_as_gen/matplotlib.axes.Axes.set_xticks.html#matplotlib.axes.Axes.set_xticks" title="(in Matplotlib v3.9.2)"><code class="xref py py-meth docutils literal notranslate"><span class="pre">matplotlib.axes.Axes.set_xticks()</span></code></a> and
-<a class="reference external" href="https://matplotlib.org/stable/api/_as_gen/matplotlib.axes.Axes.set_yticks.html#matplotlib.axes.Axes.set_yticks" title="(in Matplotlib v3.9.2)"><code class="xref py py-meth docutils literal notranslate"><span class="pre">matplotlib.axes.Axes.set_yticks()</span></code></a> to control the ticks, and can use
-<a class="reference external" href="https://matplotlib.org/stable/api/_as_gen/matplotlib.axes.Axes.annotate.html#matplotlib.axes.Axes.annotate" title="(in Matplotlib v3.9.2)"><code class="xref py py-meth docutils literal notranslate"><span class="pre">matplotlib.axes.Axes.annotate()</span></code></a> for annotations.</p>
+internals. When using the <a class="reference external" href="https://matplotlib.org/stable/index.html#module-matplotlib" title="(in Matplotlib v3.10.5)"><code class="xref py py-mod docutils literal notranslate"><span class="pre">matplotlib</span></code></a> backend it is possible to
+access the <a class="reference external" href="https://matplotlib.org/stable/api/_as_gen/matplotlib.axes.Axes.html#matplotlib.axes.Axes" title="(in Matplotlib v3.10.5)"><code class="xref py py-class docutils literal notranslate"><span class="pre">matplotlib.axes.Axes</span></code></a> that were used and subsequently
+call any number of <a class="reference external" href="https://matplotlib.org/stable/index.html#module-matplotlib" title="(in Matplotlib v3.10.5)"><code class="xref py py-mod docutils literal notranslate"><span class="pre">matplotlib</span></code></a> functions. In our example, we can
+use <a class="reference external" href="https://matplotlib.org/stable/api/_as_gen/matplotlib.axes.Axes.set_xticks.html#matplotlib.axes.Axes.set_xticks" title="(in Matplotlib v3.10.5)"><code class="xref py py-meth docutils literal notranslate"><span class="pre">matplotlib.axes.Axes.set_xticks()</span></code></a> and
+<a class="reference external" href="https://matplotlib.org/stable/api/_as_gen/matplotlib.axes.Axes.set_yticks.html#matplotlib.axes.Axes.set_yticks" title="(in Matplotlib v3.10.5)"><code class="xref py py-meth docutils literal notranslate"><span class="pre">matplotlib.axes.Axes.set_yticks()</span></code></a> to control the ticks, and can use
+<a class="reference external" href="https://matplotlib.org/stable/api/_as_gen/matplotlib.axes.Axes.annotate.html#matplotlib.axes.Axes.annotate" title="(in Matplotlib v3.10.5)"><code class="xref py py-meth docutils literal notranslate"><span class="pre">matplotlib.axes.Axes.annotate()</span></code></a> for annotations.</p>
 <div class="admonition note">
 <p class="admonition-title">Note</p>
-<p><a class="reference external" href="https://matplotlib.org/stable/index.html#module-matplotlib" title="(in Matplotlib v3.9.2)"><code class="xref py py-mod docutils literal notranslate"><span class="pre">matplotlib</span></code></a> is currently the only backend supported by the P3
+<p><a class="reference external" href="https://matplotlib.org/stable/index.html#module-matplotlib" title="(in Matplotlib v3.10.5)"><code class="xref py py-mod docutils literal notranslate"><span class="pre">matplotlib</span></code></a> is currently the only backend supported by the P3
 Analysis Library, but this is subject to change.</p>
 </div>
 <div class="admonition tip">
 <p class="admonition-title">Tip</p>
 <p>If you have any trouble customizing a navigation chart, or the
 <a class="reference internal" href="../../p3analysis.plot.backend.html#p3analysis.plot.backend.NavChart" title="p3analysis.plot.backend.NavChart"><code class="xref py py-class docutils literal notranslate"><span class="pre">NavChart</span></code></a> object does not provide access to the
-internals you are looking for, then please <a class="reference external" href="https://github.com/intel/p3-analysis-library/issues/new/choose">open an issue</a>.</p>
+internals you are looking for, then please <a class="reference external" href="https://github.com/P3HPC/p3-analysis-library/issues/new/choose">open an issue</a>.</p>
 </div>
 <img src="../../_images/sphx_glr_plot_customized_navchart_001.png" srcset="../../_images/sphx_glr_plot_customized_navchart_001.png" alt="plot customized navchart" class = "sphx-glr-single-img"/><div class="highlight-Python notranslate"><div class="highlight"><pre><span></span><span class="c1"># Initialize synthetic data</span>
 <span class="c1"># (not shown, but available in script download)</span>
@@ -356,7 +356,7 @@ internals you are looking for, then please <a class="reference external" href="h
 <span class="n">navchart</span><span class="o">.</span><span class="n">save</span><span class="p">(</span><span class="s2">&quot;customized-navchart.png&quot;</span><span class="p">)</span>
 </pre></div>
 </div>
-<p class="sphx-glr-timing"><strong>Total running time of the script:</strong> (0 minutes 0.204 seconds)</p>
+<p class="sphx-glr-timing"><strong>Total running time of the script:</strong> (0 minutes 0.168 seconds)</p>
 <div class="sphx-glr-footer sphx-glr-footer-example docutils container" id="sphx-glr-download-examples-navchart-plot-customized-navchart-py">
 <div class="sphx-glr-download sphx-glr-download-jupyter docutils container">
 <p><a class="reference download internal" download="" href="../../_downloads/07075ea048bb69f84e56a96405892fba/plot_customized_navchart.ipynb"><code class="xref download docutils literal notranslate"><span class="pre">Download</span> <span class="pre">Jupyter</span> <span class="pre">notebook:</span> <span class="pre">plot_customized_navchart.ipynb</span></code></a></p>

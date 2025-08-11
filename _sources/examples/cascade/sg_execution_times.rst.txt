@@ -6,7 +6,7 @@
 
 Computation times
 =================
-**00:01.244** total execution time for 2 files **from examples/cascade**:
+**00:00.875** total execution time for 2 files **from examples/cascade**:
 
 .. container::
 
@@ -33,8 +33,8 @@ Computation times
      - Time
      - Mem (MB)
    * - :ref:`sphx_glr_examples_cascade_plot_simple_cascade.py` (``plot_simple_cascade.py``)
-     - 00:00.866
+     - 00:00.512
      - 0.0
    * - :ref:`sphx_glr_examples_cascade_plot_customized_cascade.py` (``plot_customized_cascade.py``)
-     - 00:00.378
+     - 00:00.363
      - 0.0
