@@ -37,12 +37,20 @@ html_theme = "furo"
 html_static_path = ["_static"]
 html_title = "P3 Analysis Library"
 
+# Use a customized matplotlib scraper to ensure that tight layout is respected.
+def tight_matplotlib_scraper(block, block_vars, gallery_conf, **kwargs):
+    import sphinx_gallery
+    from sphinx_gallery.scrapers import matplotlib_scraper
+    kwargs["bbox_inches"] = "tight"
+    return matplotlib_scraper(block, block_vars, gallery_conf, **kwargs)
+
 sphinx_gallery_conf = {
      'examples_dirs': ['../../examples','../../case-studies'],
      'gallery_dirs': ['examples','case-studies'],
      'run_stale_examples': True,
      'filename_pattern': '/',
      'backreferences_dir'  : 'gen_modules/backreferences',
+     'image_scrapers': (tight_matplotlib_scraper,),
 }
 
 intersphinx_mapping = {
