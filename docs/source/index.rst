@@ -55,10 +55,10 @@ Installation
    the online documentation to reflect the latest development version.
    This documentation should be considered *unstable*.
 
-The latest release of the P3 Analysis Library is version 0.1.0-alpha. To
+The latest release of the P3 Analysis Library is version 0.2.0. To
 download and install this release, run the following::
 
-    $ git clone --branch v0.1.0-alpha https://github.com/P3HPC/p3-analysis-library.git
+    $ git clone --branch v0.2.0 https://github.com/P3HPC/p3-analysis-library.git
     $ cd p3-analysis-library
     $ pip install .
 
